@@ -4,20 +4,20 @@ This simple shell supports standard commands, redirections, pipes, background ex
 
 ## Compile and Run
 
-Compilation: make
+Compilation: `make`
 
-Run the shell: ./mysh
+Run the shell: `./mysh`
 
-Clean executables/object files: make clean
+Clean executables/object files: `make clean`
 
 ## Extra commands
 
-Stop shell: exit
+Stop shell: `exit`
 
-Create alias: createalias alias "..."
+Create alias: `createalias <alias> "..."`
 
-Remove alias: destroyalias alias
+Remove alias: `destroyalias <alias>`
 
-Print history: myhistory
+Print history: `myhistory`
 
-Run the i-th command from history: myhistory i
+Run the i-th command from history: `myhistory <i>`
